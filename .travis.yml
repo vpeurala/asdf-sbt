@@ -3,7 +3,7 @@ script:
   - bin/list-all
   - asdf plugin-add sbt ./
   - asdf list-all sbt
-  - asdf plugin-test sbt https://github.com/lerencao/asdf-sbt.git 'sbt -version'
+  - asdf plugin-test sbt https://github.com/lerencao/asdf-sbt.git 'sbt --version'
 before_script:
   - git clone https://github.com/asdf-vm/asdf.git --branch v0.2.0
   - . asdf/asdf.sh
