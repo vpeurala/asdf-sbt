@@ -72,4 +72,4 @@ get_download_url() {
   local baseurl_bintray="https://cocl.us/sbt-0.13.16.tgz"
 }
 
-install_sbt "0.13.16" "0.13.16" /Users/vpeurala/.asdf
+install_sbt "0.13.16" "0.13.16" $HOME/.asdf
